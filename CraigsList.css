@@ -5,31 +5,34 @@ p {
 	th, td {
     	font: san-serif;
 		border: 1px solid #CAC3C3;
-		background: #FCFCFC;
+		background-color: #FAFAFA;
+		border-radius: 5px
 }
 	h3, h5 {
 		display: inline;
+		padding-top: 30px;
 	}
 
 .header {
-	padding-bottom: 15px;
+	padding-bottom: 15px
 }
 
 
 .main-image {
-	position: relative;
 	float: left;
-	padding-right: 30px;
+	margin-left: 50px;
 }
 
 .main-list{
-	position: relative;
+	padding-top: 325px;
+	margin-left: 100px;
 	float: left;
 }
 
 .container {
-    position: relative;
+    position: center;
     width: 100%;
+    padding-top: 25px;
 }
 
 #contact {
@@ -38,5 +41,20 @@ p {
 }
 
 .paragraph {
-	float: clear;
+	clear: left;
+	padding-top: 3px;
+}
+
+#user-ads {
+	padding-top: 13px;
+
+}
+
+.footer-1, .footer-2, .footer-3 {
+	display: inline-block;
+	padding-left: 28px;
+}
+
+.container-paragraph {
+	max-width: 850px;
 }
